@@ -1,0 +1,19 @@
+# We need this for the code to work
+#import sys
+
+# Read input line
+line = "12 15";
+# Break it into two numbers
+input_numbers = line.split();
+
+
+# Take the two numbers and make them into two integer values
+R1 = int(input_numbers[0]);
+S = int(input_numbers[1]);
+
+
+# calculate R2 in the next line
+R2 = (S * 2) - R1
+
+# print R2 in next line
+print (R2)
